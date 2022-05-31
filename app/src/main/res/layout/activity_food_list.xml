@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodListActivity"
+    android:background="@color/primary"
+    >
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp">
+
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/total_tv"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignLeft="@id/list_view"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="3dp"
+        android:layout_toLeftOf="@id/total_tv"
+        android:background="@color/white"
+        android:backgroundTint="@color/purple_500"
+        android:gravity="left"
+        android:paddingLeft="20dp"
+        android:text="Total:"
+        android:textColor="@color/white"
+        android:textSize="25dp"></TextView>
+
+    <Button
+        android:id="@+id/cart_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/total_tv"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:text="SEE CART"
+        android:textColor="@color/black"
+        android:textSize="20dp"></Button>
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    >
+    <TextView
+        android:id="@+id/itemName_tx"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:hint="Item Name"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        ></TextView>
+    <TextView
+        android:id="@+id/itemquantity_tx"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:hint="Num"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        ></TextView>
+    <TextView
+        android:id="@+id/itemprice_tx"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:hint="$$"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+    ></TextView>
+    <TextView
+        android:id="@+id/total_tx"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:hint="Total"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        ></TextView>
+</LinearLayout>
